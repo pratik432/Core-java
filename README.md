@@ -1,5 +1,7 @@
 # Selenium Projects
-1] Testing a website "https://demo.automationtesting.in/" using TestNG and the Page Object Model (POM) design pattern is a good approach for maintaining a scalable and maintainable test suite.
+**CASE_STUDY1]** 
+
+Testing a website "https://demo.automationtesting.in/" using TestNG and the Page Object Model (POM) design pattern is a good approach for maintaining a scalable and maintainable test suite.
 
 **TestNg Report:**
 **Results **
