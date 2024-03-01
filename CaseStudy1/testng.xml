@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name= "Lis.listenerdemo"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+     <!-- 
+    
+      -->
+   	<class name="TestCases.AlertPage"/>
+      <class name="TestCases.WindowPage"/>
+      <class name="TestCases.FramesPage"/>
+      <class name="TestCases.Datepicker"/>
+      <class name="TestCases.RegisterPage"/>
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

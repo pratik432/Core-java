@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 11 07:37:41 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70127 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.AlertPage.ValidateAlertPageTitle()'><b>ValidateAlertPageTitle</b><br>Test class: TestCases.AlertPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.AlertPage@363a52f</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.ValidateFirstPassword()'><b>ValidateFirstPassword</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.FramesPage.ValidateFramePagelogo()'><b>ValidateFramePagelogo</b><br>Test class: TestCases.FramesPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.FramesPage@e383572</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.ValidateSecondPassword()'><b>ValidateSecondPassword</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.ValidateTel()'><b>ValidateTel</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.Validate_DOB()'><b>Validate_DOB</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.Validate_Hobbies()'><b>Validate_Hobbies</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.Validate_Skill()'><b>Validate_Skill</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.Validate_Submit_button()'><b>Validate_Submit_button</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.Validateaddress()'><b>Validateaddress</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.Datepicker.Validatedatepicker()'><b>Validatedatepicker</b><br>Test class: TestCases.Datepicker</td>
+<td></td>
+<td>6</td>
+<td>TestCases.Datepicker@5ddf0d24</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.Validategender()'><b>Validategender</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.AlertPage.validateAlertwithOK()'><b>validateAlertwithOK</b><br>Test class: TestCases.AlertPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.AlertPage@363a52f</td></tr>
+<tr>
+<td title='TestCases.Datepicker.validateDateTitle()'><b>validateDateTitle</b><br>Test class: TestCases.Datepicker</td>
+<td></td>
+<td>0</td>
+<td>TestCases.Datepicker@5ddf0d24</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.validateEmailTest()'><b>validateEmailTest</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.validateFirstLastNameTest()'><b>validateFirstLastNameTest</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.FramesPage.validateFrameTitle()'><b>validateFrameTitle</b><br>Test class: TestCases.FramesPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.FramesPage@e383572</td></tr>
+<tr>
+<td title='TestCases.FramesPage.validateFrames()'><b>validateFrames</b><br>Test class: TestCases.FramesPage</td>
+<td></td>
+<td>14</td>
+<td>TestCases.FramesPage@e383572</td></tr>
+<tr>
+<td title='TestCases.RegisterPage.validateRegTitle()'><b>validateRegTitle</b><br>Test class: TestCases.RegisterPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.RegisterPage@60856961</td></tr>
+<tr>
+<td title='TestCases.WindowPage.validateWindowTitle()'><b>validateWindowTitle</b><br>Test class: TestCases.WindowPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.WindowPage@130e116b</td></tr>
+<tr>
+<td title='TestCases.AlertPage.validatealertwithokandcancel()'><b>validatealertwithokandcancel</b><br>Test class: TestCases.AlertPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.AlertPage@363a52f</td></tr>
+<tr>
+<td title='TestCases.AlertPage.validatealertwithtextbox()'><b>validatealertwithtextbox</b><br>Test class: TestCases.AlertPage</td>
+<td></td>
+<td>0</td>
+<td>TestCases.AlertPage@363a52f</td></tr>
+<tr>
+<td title='TestCases.WindowPage.validatemultiplewindowTest()'><b>validatemultiplewindowTest</b><br>Test class: TestCases.WindowPage</td>
+<td></td>
+<td>7</td>
+<td>TestCases.WindowPage@130e116b</td></tr>
+</table><p>
+</body>
+</html>
