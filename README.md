@@ -37,3 +37,13 @@ Testing a website "https://demo.automationtesting.in/" using TestNG and the Page
 
 
 3] API Testing using Postman.
+
+
+
+
+
+SQL QUERIES
+SELECT * FROM data  // SELECT column.. FROM database
+WHERE Price>2000// WHERE condition
+ORDER BY ID DESC; ORDER BY Column Desc/Asc
+
